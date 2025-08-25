@@ -8,3 +8,9 @@
   
 [build.environment]
   NODE_VERSION = "20"
+
+# THIS IS THE MISSING PIECE
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/:splat"
+  status = 200
