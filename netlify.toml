@@ -4,3 +4,7 @@
 
 [functions]
   directory = "api"
+  node_bundler = "esbuild"
+  
+[build.environment]
+  NODE_VERSION = "20"
